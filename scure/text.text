@@ -1,0 +1,18 @@
+A Phân tích cách làm
+**** trong 4 cái div lớn kìa cần có 1 div lớn bao quanh nó. Mình sẽ đặt class cho nó luôn.
+VD: <div class="wapper"></div> or dùng id cũng đc
+1 header 
+    1.1 header__black__over__left.
+    1.2 header__black__over__right.
+    1.3 logo-left 
+    1.4 nav center
+    1.5 icon-right
+2 slider
+    2.1 hình ảnh 
+
+3 content
+    3.1 New arivals
+        3.1.1 
+    3.2 Best sellers
+    3.3 Latest Blogs 
+4 footer

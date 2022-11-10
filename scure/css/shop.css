@@ -1,0 +1,697 @@
+@media screen and (min-width:1024px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+        font-family: 'Square Peg', cursive;
+        scroll-behavior: smooth;
+    }
+    
+    .main {
+        margin: 0 27.5rem;
+        /* width: 100%; */
+    
+    }
+    
+    /* begin header */
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background: #FFFFFF;
+        height: 8rem;
+        border: #8dbff4 solid 0.2px;
+        padding: 0 27.5rem;
+        z-index: 10;
+    }
+    
+    .nav__header__down {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .logof__content__left {
+        display: flex;
+        width: 20%;
+        max-width: 20%;
+        line-height: 8rem;
+        font-size: 2rem;
+    
+    }
+    
+    .logof__content__left a {
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        margin-left: 2%;
+    }
+    
+    .logof__content__left>a span {
+        color: orangered;
+        font-weight: 1000;
+    }
+    
+    .nav__center__main {
+        height: 8rem;
+        width: 50%;
+    }
+    
+    .nav__main {
+        display: flex;
+        line-height: 8rem;
+        padding-left: 5rem;
+    }
+    
+    .nav__main li {
+        list-style: none;
+    }
+    
+    .nav__main li a {
+        text-decoration: none;
+        padding: 0 2rem;
+        font-size: 1.5rem;
+        color: black;
+        font-weight: 300;
+        text-transform: uppercase;
+    
+    }
+    
+    .nav__main li:hover a {
+        display: block;
+        color: #8dbff4;
+        font-weight: 100;
+    }
+    
+    .icons__header {
+        width: 30%;
+        height: 8rem;
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    
+    .icons__header li {
+        line-height: 8rem;
+        list-style: none;
+    }
+    
+    .icons__header li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .icons__header li a i {
+        font-size: 2rem;
+        margin-right: 0.8rem;
+        color: #1e1e27;
+        padding: 1.3rem;
+    }
+    
+    .icons__header li:hover a i {
+        background-color: rgba(240, 240, 192, 0.61);
+        border-radius: 70%;
+        color: #b5aec4;
+        position: relative;
+    }
+    
+    .icons__header span {
+        background-color: #fb7577f3;
+        color: white;
+        padding: 1rem;
+        height: 3rem;
+        line-height: 1rem;
+        position: absolute;
+        border-radius: 50%;
+        font-size: 1.5rem;
+    }
+    
+    /* the end header */
+    
+    /* begin slieder animation */
+    .slider {
+        width: 100%;
+        min-height: 28rem;
+        padding-top: 8rem;
+    }
+    
+    .slider_animation {
+        width: 100%;
+        overflow: hidden;
+        height: 52vh;
+        animation: slider 7s linear infinite;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        border: solid 0.1px rgb(172, 167, 167);
+    }
+    
+    @keyframes slider {
+        0% {
+            background-image: url(/scure/img/slidernice.jfif);
+            background-size: 100% auto;
+    
+        }
+    
+        25% {
+            background-image: url(/scure/img/slidernice1.jfif);
+            background-size: 100% auto;
+    
+        }
+    
+        50% {
+            background-image: url(/scure/img/slidernice2.jfif);
+            background-size: 100% auto;
+    
+        }
+    
+        75% {
+            background-image: url(/scure/img/quan1.jfif);
+            background-size: 100% auto;
+    
+        }
+    
+        100% {
+            background-image: url(/scure/img/quan2.jfif);
+        }
+    }
+    
+    /* the end slider */
+    
+    /* begin products tshift for men */
+    .content_product {
+        position: relative;
+        height: 176rem;
+    }
+    
+    .title_product {
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .title_product .title {
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+    
+    .products_t_shift {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .products_t_shift > li {
+        flex-basis: 33%;
+        margin: 1rem 0.2rem;
+        border: 1px gray solid;
+        height: 40rem;
+        list-style: none;
+    }
+    
+    .products_t_shift li img {
+        height: 25rem;
+        width: 32.3rem;
+    }
+    
+    .products_t_shift li .inf_prd {
+        display: block;
+        padding-top: 0.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    
+    .inf_prd a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #1e1e27;
+    }
+    
+    .inf_prd a h4 {
+        font-size: 2rem;
+    }
+    
+    .inf_prd .content_price {
+        font-weight: 300;
+        color: #b5aec4;
+    }
+    
+    .inf_prd .price {
+        color: red;
+        font-size: 1.5rem;
+    }
+    
+    .inf_prd .price del {
+        color: black;
+    }
+    
+    .display_buy {
+        display: block;
+        width: 100%;
+    }
+    
+    .display_buy button {
+        width: 100%;
+        margin-top: -1.3rem;
+        padding: 2.108rem 3rem;
+        background-color: white;
+        border: none;
+        background-color: orangered;
+        position: relative;
+        bottom: -10px;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+        z-index: -10;
+        color: white;
+        font-weight: 900;
+        box-shadow: #8dbff4 20px;
+    }
+    
+    .products_t_shift li:hover button {
+        opacity: 1;
+        bottom: 0px;
+        z-index: 1;
+    }
+    
+    /* the end products tshift for men */
+    
+    /* begin pant */
+    .content_pant {
+        position: relative;
+        height: 93rem;
+        width: 100%;
+        margin-top: 43rem;
+    }
+    
+    .title_pant {
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .title_pant .title {
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+    
+    .products_pant {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+        height: 120rem;
+    }
+    
+    .products_pant li {
+        flex-basis: 30%;
+        border: 1px gray solid;
+        height: 41.7rem;
+        list-style: none;
+        position: relative;
+        margin: 0.3rem 2rem;
+        box-sizing: border-box;
+    }
+    
+    .products_pant li .offer {
+        position: absolute;
+        top: 6.5%;
+        left: 78%;
+        transform: rotate(32deg);
+        background-color: red;
+        width: 10.19rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-weight: 900;
+    }
+    
+    .products_pant li img {
+        height: 26.66rem;
+        width: 44rem;
+    }
+    
+    .products_pant li .inf_prd {
+        display: block;
+        padding-top: 0.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    
+    .products_pant li .inf_prd a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #1e1e27;
+    }
+    
+    .products_pant li .inf_prd a h4 {
+        font-size: 2rem;
+    }
+    
+    .products_pant li .inf_prd .content_price {
+        font-weight: 300;
+        color: #b5aec4;
+    }
+    
+    .products_pant li .inf_prd .price {
+        color: red;
+        font-size: 1.5rem;
+    }
+    
+    .products_pant li .inf_prd .price del {
+        color: black;
+    }
+    
+    .products_pant li .display_buy {
+        display: block;
+        width: 100%;
+    }
+    
+    .products_pant li .display_buy button {
+        width: 100%;
+        margin-top: -1.28rem;
+        padding: 2.108rem 3rem;
+        background-color: white;
+        border: none;
+        background-color: orangered;
+        position: relative;
+        bottom: -60px;
+        opacity: 0;
+        transition: all 1s linear;
+        z-index: 0;
+        color: white;
+        font-weight: 900;
+        box-shadow: #8dbff4 20px;
+    }
+    
+    .products_pant li:hover button {
+        opacity: 1;
+        bottom: 0;
+        z-index: 3;
+    }
+    
+    /* the end pant */
+    
+    /* begin hat */
+    .content_hat {
+        position: relative;
+        max-height: 176rem;
+    }
+    
+    .title_hat {
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .title_hat .title {
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+    
+    .products_hat {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    
+    .products_hat li {
+        flex-basis: 15%;
+        margin: 1rem 0.2rem;
+        border: 1px gray solid;
+        height: 40rem;
+        list-style: none;
+        position: relative;
+    }
+    
+    .products_hat li .offer {
+        position: absolute;
+        top: 4.5%;
+        left: 72%;
+        transform: rotate(32deg);
+        background-color: red;
+        width: 7.19rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-weight: 900;
+    }
+    
+    .products_hat li img {
+        height: 25rem;
+        width: 25rem;
+    }
+    
+    .products_hat li .inf_prd {
+        display: block;
+        padding-top: 0.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    
+    .products_hat li .inf_prd a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #1e1e27;
+    }
+    
+    .products_hat li .inf_prd a h4 {
+        font-size: 2rem;
+    }
+    
+    .products_hat li .inf_prd .content_price {
+        font-weight: 300;
+        color: #b5aec4;
+    }
+    
+    .products_hat li .inf_prd .price {
+        color: red;
+        font-size: 1.5rem;
+    }
+    
+    .products_hat li .inf_prd .price del {
+        color: black;
+    }
+    
+    .products_hat li .display_buy {
+        display: block;
+        width: 100%;
+    }
+    
+    .products_hat li .display_buy button {
+        width: 100%;
+        margin-top: 0.2rem;
+        padding: 2.108rem 3rem;
+        background-color: white;
+        border: none;
+        background-color: orangered;
+        position: relative;
+        bottom: -60px;
+        opacity: 0;
+        transition: all 1s linear;
+        z-index: 0;
+        color: white;
+        font-weight: 900;
+        box-shadow: #8dbff4 20px;
+    }
+    
+    .products_hat li:hover button {
+        opacity: 1;
+        bottom: 0;
+        z-index: 3;
+    }
+    
+    /* the end hat */
+    
+    /* begin footer and about */
+    .footer_about {
+        min-height: 35rem;
+        position: relative;
+    }
+    
+    .title_footer_about {
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .title_footer_about .title {
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+    
+    .inf_about_other {
+        display: flex;
+        width: 100%;
+        min-height: 22rem;
+    }
+    
+    .div_inf1_css {
+        width: 20%;
+        margin-right: 6rem;
+    }
+    
+    .div_inf1_css .title {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    .div_inf1_css p {
+        display: flex;
+        font-size: 1.2rem;
+    }
+    
+    .div_inf1_css p {
+        font-size: 1.2rem;
+        color: rgb(125, 114, 114);
+    }
+    
+    .div_inf1_css button {
+        margin-top: 3rem;
+        padding: 1rem 2.5rem;
+        border-radius: 30px;
+        border: none;
+        background-color: #1e1e27;
+        color: white;
+    }
+    
+    .div_inf1_css button:hover {
+        background-color: #b5aec4;
+        color: black;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .div_inf1_css .title:hover {
+        color: yellowgreen;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .div_inf2_css {
+        width: 20%;
+    }
+    
+    .div_inf2_css .title {
+        padding-bottom: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .div_inf2_css p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .div_inf2_css p:hover{
+        color: yellowgreen;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .div_inf3_css {
+        width: 20%;
+        padding-bottom: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .div_inf3_css .title {
+        padding-bottom: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .div_inf3_css p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .div_inf3_css p:hover{
+        color: yellowgreen;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .div_inf4_css {
+        width: 20%;
+        padding-bottom: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .div_inf4_css .title {
+        padding-bottom: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .div_inf4_css p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .div_inf4_css p:hover{
+        color: yellowgreen;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .div_inf5_css {
+        width: 20%;
+        padding-bottom: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .div_inf5_css .title {
+        padding-bottom: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .div_inf5_css p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .div_inf5_css p:hover{
+        color: yellowgreen;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+    footer{
+        font-size: 1.6rem;
+        width: 100%;
+        display: flex;
+        color: #dbd8e2;
+    }
+    footer:hover{
+        color: yellowgreen;
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+    }
+    /* the end footer and about */
+}

@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Square Peg', cursive;
+    scroll-behavior: smooth;
+}
+
+.main {
+    margin: 0 27.5rem;
+    /* width: 100%; */
+
+}
+
+/* begin header */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #FFFFFF;
+    height: 8rem;
+    border: #8dbff4 solid 0.2px;
+    padding: 0 27.5rem;
+    z-index: 10;
+}
+
+.nav__header__down {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+
+.logof__content__left {
+    display: flex;
+    width: 20%;
+    max-width: 20%;
+    line-height: 8rem;
+    font-size: 2rem;
+
+}
+
+.logof__content__left a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin-left: 2%;
+}
+
+.logof__content__left>a span {
+    color: orangered;
+    font-weight: 1000;
+}
+.togol i {
+    display: none;
+    /* opacity: 0; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* padding: 1rem; */
+    font-size: 1.2rem;
+}
+.nav__center__main {
+    height: 8rem;
+    width: 50%;
+}
+
+.nav__main {
+    display: flex;
+    line-height: 8rem;
+    padding-left: 5rem;
+}
+
+.nav__main li {
+    list-style: none;
+}
+
+.nav__main li a {
+    text-decoration: none;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.nav__main li:hover a {
+    display: block;
+    color: #8dbff4;
+    font-weight: 100;
+}
+
+.icons__header {
+    width: 30%;
+    height: 8rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.icons__header li {
+    line-height: 8rem;
+    list-style: none;
+}
+
+.icons__header li a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons__header li a i {
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    color: #1e1e27;
+    padding: 1.3rem;
+}
+
+.icons__header li:hover a i {
+    background-color: rgba(240, 240, 192, 0.61);
+    border-radius: 70%;
+    color: #b5aec4;
+    position: relative;
+}
+
+.icons__header span {
+    background-color: #fb7577f3;
+    color: white;
+    padding: 1rem;
+    height: 3rem;
+    line-height: 1rem;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+/* the end header */
+
+/* begin map */ 
+.map{
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    margin-top: 10rem;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+/* the end map */
+.contact_getintouch{
+    display: flex;
+    margin-top: 5rem;
+    height: 60rem;
+}
+
+.contact_left{
+width: 50%;    
+padding-right: 3rem;
+}
+.contact_left .title{
+font-size: 3rem;
+font-weight: 900;
+margin-bottom: 1.5rem;
+}
+.contact_left .contents{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 3rem;
+}
+.contact_left .contact_inf{
+    font-weight: 500;
+    color: gray;
+    font-size: 1.2rem;
+}
+.title_folow {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.icons_soicials{
+    font-size: 3rem;
+}
+.icons_soicials .face{
+    color: blue;
+}
+.icons_soicials .twiz{
+    color: #8dbff4;
+}
+.icons_soicials .gogle{
+    color: orangered;
+}
+.icons_soicials .intagram{
+    color: brown;
+
+}
+.icons_soicials i {
+    border-radius: 100%;
+    transition: all 0.4 ease-in;
+
+}
+.icons_soicials i:hover{
+    box-shadow: 0.1px 20px 60px gray;
+}
+
+.getintouch_right{
+width: 50%;
+}
+.getintouch_right .title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.getintouch_right .content{
+    color: gray;
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+.getintouch_right .inputs input{
+    display: block;
+    margin: 2rem 0;
+    width: 70%;
+    padding: 1rem ;
+}
+.getintouch_right textarea{
+height: 12rem;
+padding-bottom: 0rem;
+outline: none;
+display: block;
+margin-bottom: 1.5rem;
+width: 47rem;
+padding-left: 1.1rem;
+}
+.getintouch_right button{ 
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+.getintouch_right button:
+/* the begin contact us and get in touch */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    header{
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: #b5aec4;
+    }
+    .nav__center__main{
+        margin: 0;
+        padding: 0;
+         width: 100%;
+    }
+    .nav__main{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #b5aec4;
+    }
+    .nav__main li:hover a{
+        color: white;
+    }
+    .logof__content__left {
+        display: none;
+    }
+    .icons__header{
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+/* giao dien destop */
+@media screen and (min-width: 1024px){
+
+}
+/* giao dien tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+header {
+  width: 77rem;
+}
+.headder__black {
+    height: 27rem;
+    width: 100%;
+  }
+  .black__left {
+    width: 59%%;
+  }
+  .black__left p {
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+}
+
+
+
+/* giao dien danh smartphone */
+@media screen and (max-width:767px)
